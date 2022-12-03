@@ -10,6 +10,17 @@ import java.util.Arrays;
 
 public class Tabela_Hash {
 
+    public static class TabelaEntrada {
+        String chave;
+        int valor;
+
+        public TabelaEntrada(String chave, int valor) {
+            this.chave = chave;
+            this.valor = valor;
+        }
+    }
+    
+
     private int tamanho;
     private int qtd;
     private int[] tabela;
